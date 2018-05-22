@@ -382,7 +382,7 @@ export default class extends Component {
                 }
             }, 250);
         } else {
-            if (isIOS) this._scrollToKeyboardRequest();
+            this._scrollToKeyboardRequest();
         }
     };
 
